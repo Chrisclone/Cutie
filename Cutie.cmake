@@ -33,7 +33,7 @@ set(GOOGLETEST_DIR ${googletest_SOURCE_DIR})
 # Subhook
 FetchContent_Declare(subhook
     GIT_REPOSITORY
-        https://github.com/Zeex/subhook.git
+        https://github.com/BangL/subhook
     GIT_TAG
         v0.8.1
 )
