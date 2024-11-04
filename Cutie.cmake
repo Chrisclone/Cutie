@@ -33,7 +33,9 @@ set(GOOGLETEST_DIR ${googletest_SOURCE_DIR})
 # Subhook
 FetchContent_Declare(subhook
     GIT_REPOSITORY
-        https://github.com/BangL/subhook
+        https://github.com/Chrisclone/subhook
+    GIT_TAG
+        v0.8.1
 )
 set(SUBHOOK_STATIC ON)
 set(SUBHOOK_TESTS OFF)
